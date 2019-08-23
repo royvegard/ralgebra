@@ -32,6 +32,8 @@ pub fn sub(a: i32, b: i32) -> i32 {
 
 /// Multiplies two numbers.
 /// 
+/// Go forth and multiply, feeble numbers.
+/// 
 /// # Examples
 /// ```
 /// let result = ralgebra::mul(3, 6);
