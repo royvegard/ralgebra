@@ -1,11 +1,42 @@
+//! # Roy's algebra library
+//! A very simple library made mostly
+//! to learn how to publish on stuff crates.io.
+
+/// Adds two numbers together.
+/// 
+/// Two lonely numbers where so very sad.
+/// One lonely number said to the other:
+/// Lets add.
+/// 
+/// # Examples
+/// ```
+/// let result = ralgebra::add(4, 5);
+/// assert_eq!(result, 9);
+/// ```
 pub fn add(a : i32, b : i32) -> i32 {
     a + b
 }
 
+/// Subtracts the second number from the first one.
+/// 
+/// Two numbers and a minus sign walks into a bar.
+/// 
+/// # Examples
+/// ```
+/// let result = ralgebra::sub(9, 4);
+/// assert_eq!(result, 5);
+/// ```
 pub fn sub(a: i32, b: i32) -> i32 {
     a - b
 }
 
+/// Multiplies two numbers.
+/// 
+/// # Examples
+/// ```
+/// let result = ralgebra::mul(3, 6);
+/// assert_eq!(result, 18);
+/// ```
 pub fn mul(a: i32, b: i32) -> i32 {
     a * b
 }
