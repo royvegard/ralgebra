@@ -1,6 +1,6 @@
 //! # Roy's algebra library
 //! A very simple library made mostly
-//! to learn how to publish on stuff crates.io.
+//! to learn how to publish stuff on crates.io.
 
 /// Adds two numbers together.
 /// 
