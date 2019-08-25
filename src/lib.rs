@@ -43,6 +43,18 @@ pub fn mul(a: i32, b: i32) -> i32 {
     a * b
 }
 
+/// Divides the first number by the second number.
+/// 
+/// # Examples
+/// 
+/// ```
+/// let result = ralgebra::div(8, 2);
+/// assert_eq!(result, 4);
+/// ```
+pub fn div(a: i32, b: i32) -> i32 {
+    a / b
+}
+
 #[cfg(test)]
 mod tests {
     use crate::*;
@@ -61,4 +73,8 @@ mod tests {
         assert_eq!(mul(2, 3), 6);
     }
 
+    #[test]
+    fn test_div() {
+        assert_eq!(div(36, 6), 6);
+    }
 }
